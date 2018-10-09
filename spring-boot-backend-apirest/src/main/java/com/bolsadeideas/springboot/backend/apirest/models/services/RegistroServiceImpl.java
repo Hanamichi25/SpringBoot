@@ -22,11 +22,13 @@ public class RegistroServiceImpl implements IRegistroService{
 
 	@Override
 	@Transactional(readOnly = true)
-	public List<Registro> findByTexto(String cadenaTexto) {
+	public List<Registro> findByTextoConCoincidencia(String cadenaTexto, List<String> coincidencias) {
 		// TODO Auto-generated method stub
-		return (List<Registro>) registroDao.findRegistroByTexto(cadenaTexto);
+		return (List<Registro>) registroDao.findRegistroByTextoCoincidencia(cadenaTexto,coincidencias);
 	}
-	
-	
-	
+
+	@Override
+	public List<Registro> findByTextoSinCoincidencia(String cadenaTexto) {
+		return (List<Registro>) registroDao.findRegistroByTextoSinCoincidencia(cadenaTexto);
+	}
 }

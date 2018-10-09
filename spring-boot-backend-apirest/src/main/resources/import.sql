@@ -12,3 +12,10 @@ INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Magma', 'Lee',
 INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Tornado', 'Roe', 'tornado.roe@gmail.com', '2018-03-05');
 INSERT INTO clientes (nombre, apellido, email, create_at) VALUES('Jade', 'Doe', 'jane.doe@gmail.com', '2018-03-06');
 INSERT INTO registros (url, primernombre, segundonombre, primerapellido, segundoapellido, coincidencia) VALUES('google.com', 'daniel','ricardo','martin','nino','terrorismo');
+INSERT INTO registros (url, primernombre, segundonombre, primerapellido, segundoapellido, coincidencia) VALUES('aws.com', 'daniel','ricardo','martin','nino','terrorismo');
+INSERT INTO registros (url, primernombre, segundonombre, primerapellido, segundoapellido, coincidencia) VALUES('twitter.com', 'daniel','ricardo','martin','nino','terrorismo');
+INSERT INTO registros (url, primernombre, segundonombre, primerapellido, segundoapellido, coincidencia) VALUES('dafiti.com', 'daniel','ricardo','martin','nino','terrorismo');
+INSERT INTO registros (url, primernombre, segundonombre, primerapellido, segundoapellido, coincidencia) VALUES('google.com', 'daniel','ricardo','martin','nino','Lavado de dinero');
+INSERT INTO registros (url, primernombre, segundonombre, primerapellido, segundoapellido, coincidencia) VALUES('aws.com', 'daniel','ricardo','martin','nino','Lavado de dinero');
+INSERT INTO registros (url, primernombre, segundonombre, primerapellido, segundoapellido, coincidencia) VALUES('twitter.com', 'daniel','ricardo','martin','nino','Lavado de dinero');
+INSERT INTO registros (url, primernombre, segundonombre, primerapellido, segundoapellido, coincidencia) VALUES('dafiti.com', 'daniel','ricardo','martin','nino','Lavado de dinero');

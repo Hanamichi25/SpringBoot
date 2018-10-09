@@ -8,6 +8,8 @@ public interface IRegistroService {
 	
 	public List<Registro> finAllRegistros();
 	
-	public List<Registro> findByTexto(String cadenaTexto);
+	public List<Registro> findByTextoConCoincidencia(String cadenaTexto, List<String> coincidencias);
+
+	public List<Registro> findByTextoSinCoincidencia(String cadenaTexto);
 	
 }
